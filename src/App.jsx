@@ -1,8 +1,12 @@
 import './App.css'
+import Layout from './components/layout/Layout'
+import Dashboard from './pages/Dashboard'
 
 function App() {
  return (
-  <p id='center'>Welcome to Vite + React!</p>
+   <Layout>
+      <Dashboard />
+   </Layout>
  )
 }
 

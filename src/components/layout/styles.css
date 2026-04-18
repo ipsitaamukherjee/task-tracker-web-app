@@ -1,0 +1,36 @@
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer-container {
+  width: 100%;
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: calc(100vh - 60px);
+}
+
+.sidebar {
+  width: 200px;
+  background: #f4f4f4;
+  padding: 1rem;
+}
+
+.sidebar button {
+  display: block;
+  margin: 10px 0;
+}
