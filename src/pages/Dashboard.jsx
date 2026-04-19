@@ -1,7 +1,12 @@
+import AddTaskForm from '../components/task/AddTaskForm';
+import TaskList from '../components/task/TaskList';
 import './styles.css'
 
 export default function Dashboard() {
     return (
-        <h1 className='dashboard'>Dashboard</h1>
+        <>
+          <AddTaskForm />
+          <TaskList />
+        </>
     )
 }

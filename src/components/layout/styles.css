@@ -25,12 +25,49 @@
 }
 
 .sidebar {
-  width: 200px;
-  background: #f4f4f4;
-  padding: 1rem;
+  background: #f5f7fa;
+  padding: 2rem 1.5rem;
+  border-radius: 8px;
+  min-width: 180px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.sidebar h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #222;
+  letter-spacing: 1px;
 }
 
 .sidebar button {
-  display: block;
-  margin: 10px 0;
+  background: #e0e7ef;
+  color: #222;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar button:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar button:hover,
+.sidebar button.active {
+  background: #4f8cff;
+  color: #fff;
+}
+
+.main {
+  width: 690px;
+  padding: 10px;
 }
